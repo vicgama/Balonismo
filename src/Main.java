@@ -1,12 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-
-        String tom;
-        String zendaya;
-
-        tom = new String();
-        zendaya = new String();
-
+        // Construir balões
+        Balao b1 = new Balao();
+        String resultado = b1.voar();
+        System.out.println(resultado);
 
     }
 
