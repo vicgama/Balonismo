@@ -1,4 +1,5 @@
 public class Balao {
+
     // Atributos
     int id;
     String registro;
@@ -8,6 +9,7 @@ public class Balao {
     double altura;
     String porte;
     double peso;
+
     // Métodos
     public String voar(){
         return "voando";
